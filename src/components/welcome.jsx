@@ -16,9 +16,9 @@ const Welcome = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        if (email) {
-            navigate(`/sign?email=${encodeURIComponent(email)}`)
-        }
+        // if (email) {
+        //     navigate(`/sign?email=${encodeURIComponent(email)}`)
+        // }
     }
 
     var settings = {
